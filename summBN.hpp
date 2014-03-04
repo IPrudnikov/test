@@ -7,7 +7,7 @@ namespace Bnum
 		private:
 			unsigned long long summ(a,b)
 			{
-				return a+b+1;
+				return a+b+2;
 			} 
 	};
 }
