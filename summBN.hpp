@@ -1,13 +1,8 @@
-namespace Bnum
-{
 	class Integ
 	{
 		public:
-			unsigned long long a, b;			//От 0 до 18 446 744 073 709 551 615 
-		private:
-			unsigned long long summ(a,b)
+			static unsigned long long summ(unsigned long long a,unsigned long long b)
 			{
-				return a+b+2;
+				return a+b;
 			} 
 	};
-}
